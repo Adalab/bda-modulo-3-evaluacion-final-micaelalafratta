@@ -12,7 +12,7 @@ Detección problemas:
 
 2. VALORES ATÍPICOS: 
 - Hay 1864 duplicados. 
-- ¿por qué el 95.87% de los Loyalty number está duplicado? Viajeros usuales? Una fila por cada vuelo. Hay valores repetidos por viajes recurrentes.  
+- ¿por qué el 95.87% de los Loyalty number está duplicado? Hay valores repetidos por viajes recurrentes. El registro es de viajes mensuales/viajero. 
 - por qué hay 999986.0 Loyalty Number si el total de filas es 405624. ¿Son consecutivos? ¿Faltan la mitad?
 
 3. DATOS FALTANTES: 
@@ -28,8 +28,8 @@ Detección problemas:
 
 - Nulos en Cancellation porque siguen activos
 - Salary                25.32    ¿cómo imputar?
-- Cancellation Year     87.65
-- Cancellation Month    87.65
+- Cancellation Year     87.65    Valores altos porque no se dieron de baja.
+- Cancellation Month    87.65    Valores altos porque no se dieron de baja.
 
 2. VALORES ATÍPICOS: No hay duplicados
 

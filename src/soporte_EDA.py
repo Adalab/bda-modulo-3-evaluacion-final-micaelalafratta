@@ -31,3 +31,5 @@ def exploracion_num(dataframe,columna):
     
     plt.tight_layout() # Ajusta el espacio para que no se superpongan
     plt.show()
+
+
