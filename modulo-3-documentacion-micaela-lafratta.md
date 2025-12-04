@@ -30,7 +30,10 @@ Detección problemas:
 - Cancellation Year     87.65    - Nulos en Cancellation porque siguen activos. En este caso, nulos altos es positivo.
 - Cancellation Month    87.65    - Nulos en Cancellation porque siguen activos
 
-2. VALORES ATÍPICOS: No hay duplicados
+2. VALORES ATÍPICOS: 
+
+- No hay duplicados. 
+- Falta "College" en "Education" 
 
 3. DATOS FALTANTES: 
 
@@ -67,7 +70,7 @@ Usar la gráfica que se adecúe más. Tipo variables. ¿Una o comparación entre
 
 ## CRITERIOS:
 
- - Análisis Exploratorio de los datos.*
+- Análisis Exploratorio de los datos.*
 - Gestión de nulos. *
 - Visualización de datos con matplotlib y seaborn.*
 - Estadística descriptiva.
