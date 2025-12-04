@@ -2,7 +2,7 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-#Función estadística descriptiva. Primer análisis EDA. 
+'''Función estadística descriptiva. Primer análisis EDA. Incluye describe de columna seleccionada. Con histograma y boxplot'''
 
 def exploracion_num(dataframe,columna):
     print("ESTADÍSTICA DESCRIPTIVA \n")

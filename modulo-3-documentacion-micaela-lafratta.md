@@ -15,10 +15,6 @@ Detección problemas:
 - ¿por qué el 95.87% de los Loyalty number está duplicado? Hay valores repetidos por viajes recurrentes. El registro es de viajes mensuales/viajero. 
 - por qué hay 999986.0 Loyalty Number si el total de filas es 405624. ¿Son consecutivos? ¿Faltan la mitad?
 
-3. DATOS FALTANTES: 
-
-4. TENDENCIA DATOS: ESTADÍSTICA
-
 ### 1. 2. EDA: Exploración inicial. Customer Loyalty History. 
 Datos personales para fidelización. 
 
@@ -42,10 +38,6 @@ Detección problemas:
 3. DATOS FALTANTES: 
 - Falta "College" en "Education" 
 
-
-4. TENDENCIA DATOS: ESTADÍSTICA
-
-
 ### 1.3. Unión de los CSV
 
 ### 1.4. EDA: Exploración inicial merged
@@ -56,17 +48,7 @@ Detección problemas:
  - float64 a int64 como "Points Redeemed". Los ya gastados son enteros, normalmente con centenas.
 
 
-## 2. Limpieza datos 
-
-### 2.1. Eliminación valores nulos, datos completos.
-
-### 2.2. Corrección errores: Cambio tipo datos, mayus, minus
-Función limpieza. 
-
-
 # FASE 2: Visualización
-Usar la gráfica que se adecúe más. Tipo variables. ¿Una o comparación entre dos o tres?
-
 
 1. ¿Cómo se distribuye la cantidad de vuelos reservados por mes durante el año?
 2. ¿Existe una relación entre la distancia de los vuelos y los puntos acumulados por los cliente?
@@ -77,10 +59,3 @@ Usar la gráfica que se adecúe más. Tipo variables. ¿Una o comparación entre
 6. ¿Cómo se distribuyen los clientes según su estado civil y género?
 
 
-
-## CRITERIOS:
-
-- Análisis Exploratorio de los datos.*
-- Gestión de nulos. *
-- Visualización de datos con matplotlib y seaborn.*
-- Estadística descriptiva.
