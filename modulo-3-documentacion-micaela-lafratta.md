@@ -26,16 +26,22 @@ Detección problemas:
 
 1. NULOS: Hay nulos. 
 
-- Salary                25.32    ¿cómo imputar? ver la moda por educación y empresa. 
+- Salary                25.32    ¿cómo imputar? 
+    - Faltaban los datos de salario para las personas que tienen "College". Se ha hecho media entre el valor superior (Bachelor) e inferior (High School and below). Se ha sobrescrito "College" con dicha media. 
+
+
 - Cancellation Year     87.65    - Nulos en Cancellation porque siguen activos. En este caso, nulos altos es positivo.
-- Cancellation Month    87.65    - Nulos en Cancellation porque siguen activos
+- Cancellation Month    87.65    - Nulos en Cancellation porque siguen activos. nulos altos es positivo.
+    - Imputación inactividad de cancelación (son usuarios activos): Se sustituye por 0
+        - Codifica "la cancelación aún no ha ocurrido
+        - Permite conversión de NaN a 0. Permite convertir de float a int, como enrollment.
 
 2. VALORES ATÍPICOS: 
-
 - No hay duplicados. 
-- Falta "College" en "Education" 
 
 3. DATOS FALTANTES: 
+- Falta "College" en "Education" 
+
 
 4. TENDENCIA DATOS: ESTADÍSTICA
 
@@ -44,7 +50,11 @@ Detección problemas:
 
 ### 1.4. EDA: Exploración inicial merged
 
-- Cambiar Points Accumulated float64 a int64. No hay medios puntos. ??
+- "Points Accumulated": 
+        - Parece que "Points Accumulated" es float por error de escritura o porque la aerolínea da número decimales, pero, ¿después se pueden gastar?. 
+- Truncar número y quitar decimales o redondear. 
+ - float64 a int64 como "Points Redeemed". Los ya gastados son enteros, normalmente con centenas.
+
 
 ## 2. Limpieza datos 
 

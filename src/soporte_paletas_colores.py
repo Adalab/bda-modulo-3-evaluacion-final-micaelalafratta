@@ -31,7 +31,7 @@ crimson_coast = {
 }
 
 sunset_contrast = {
-    "Rojo_Atardcer": "#E55934",
+    "Rojo_Atardecer": "#E55934",
     "Turquesa_Brillante": "#5BC0EB",
     "Amarillo_Arena": "#FDE74C",
     "Azul_Profundo": "#203450",
