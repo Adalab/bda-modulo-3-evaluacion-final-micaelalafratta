@@ -1,0 +1,1 @@
+#poner las funciones para visualizar
