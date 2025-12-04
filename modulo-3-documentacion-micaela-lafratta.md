@@ -26,10 +26,9 @@ Detección problemas:
 
 1. NULOS: Hay nulos. 
 
-- Nulos en Cancellation porque siguen activos
-- Salary                25.32    ¿cómo imputar?
-- Cancellation Year     87.65    Valores altos porque no se dieron de baja.
-- Cancellation Month    87.65    Valores altos porque no se dieron de baja.
+- Salary                25.32    ¿cómo imputar? ver la moda por educación y empresa. 
+- Cancellation Year     87.65    - Nulos en Cancellation porque siguen activos. En este caso, nulos altos es positivo.
+- Cancellation Month    87.65    - Nulos en Cancellation porque siguen activos
 
 2. VALORES ATÍPICOS: No hay duplicados
 
@@ -39,6 +38,10 @@ Detección problemas:
 
 
 ### 1.3. Unión de los CSV
+
+### 1.4. EDA: Exploración inicial merged
+
+- Cambiar Points Accumulated float64 a int64. No hay medios puntos. ??
 
 ## 2. Limpieza datos 
 

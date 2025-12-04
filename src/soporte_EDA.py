@@ -15,6 +15,7 @@ def exploracion_num(dataframe,columna):
 
     print(f"-"*20)
 
+#PRIMERA VISUALIZACIÓN: 
 
 # Histograma (Distribución): Muestra la forma de la distribución
 
